@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project involves developing a sophisticated educational chatbot tailored for university needs. It leverages state-of-the-art language models, including LLaMA 3 (8B) and OpenAI's models, with a focus on retrieving relevant information from various university-related documents. The goal is to provide quick, reliable responses to students' queries by referencing course materials, eBooks, lecture notes, and other resources.
+This project involves developing a sophisticated educational chatbot tailored for university needs. It leverages state-of-the-art language models, including LLaMA 3 (8B) and OpenAI's GPT 4 models, with a focus on retrieving relevant information from various university-related documents. The goal is to provide quick, reliable responses to students' queries by referencing course materials, eBooks, lecture notes, and other resources.
 
 The system architecture integrates **Chroma DB** for vector storage, **RAG (Retrieval-Augmented Generation)** for document retrieval, and **LLaMA 3** for language understanding and response generation. This chatbot allows students to retrieve specific information directly from indexed documents, enhancing their learning experience.
 
