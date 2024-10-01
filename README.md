@@ -40,7 +40,7 @@ The system architecture integrates **Chroma DB** for vector storage, **RAG (Retr
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/university_chatbot.git
+   git clone https://github.com/kishorejr28/university_chatbot.git
    cd university_chatbot
    ```
 
@@ -53,12 +53,18 @@ The system architecture integrates **Chroma DB** for vector storage, **RAG (Retr
    ```
 
 3. **Run the Project**:
-   Start the server:
+   Start the backend server:
    ```bash
-   python main.py
+   python app.py
    ```
-
-4. **Access the Chatbot**:
+   **Run frontend**:
+   Start streamlit "
+   ```bash
+   cd streamlit
+   streamlit run app.py
+   ```
+   
+5. **Access the Chatbot**:
    The chatbot can be accessed through the frontend interface or an API.
 
 ## Evaluation and Performance Metrics
